@@ -1,0 +1,86 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        flex-direction: column-reverse;
+    }
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: 2rem;
+}
+.nav-link{
+    margin-left: 1.5rem;
+}
+
+.navbar-brand img{
+    font-size: 2rem;
+}
+.box{
+    background: linear-gradient(180deg, rgba(128, 128, 128, 0.701), rgba(128, 128, 128, 0.055));
+    border-radius: 20px;
+}
+.footerSection{
+    margin-top: 80px;
+}
+*{
+    font-family: "Source Serif 4", serif;
+    color: rgba(115, 89, 9, 0.797);
+}
+.middleBtn button{
+    border: 2px solid purple;
+    color: purple;
+    border-radius: 20px;
+}
+.middleBtn button:hover{
+    background-color: purple;
+    color: white;
+    border-color: purple;
+}
+.dropdown-item:hover{
+    text-decoration: underline;
+    background-color: white;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(115, 89, 9, 0.797);
+}
+.contactIcon a{
+    margin-left: 2rem;
+}
+.footerMenu a{
+    margin-left: 1.5rem;
+    font-size: small;
+}
+.email{
+    border-radius: 3rem;
+    border: none;
+    font-size: small;
+}
+.submit{
+    background-color: purple;
+    color: white;
+    font-size: small;
+    border: none;
+    border-radius: 3rem;
+}
+.nav-item a{
+    color: rgba(115, 89, 9, 0.797);
+}
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-900px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.movingFont{
+    animation: slideInLeft 1.5s ease-in 0s 1 normal none;
+    transform: translateX(0s);
+}
